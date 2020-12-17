@@ -12,4 +12,5 @@ JavaScript 学習コース III > 関数を学ぼう > スコープ
 
 ## GoogleMapを丸でマスクをかけて表示する
 
-## GitHubの課題
+## ブランチの作成と移動をまとめてできるコマンド
+git checkout -b sub1
