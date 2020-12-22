@@ -42,6 +42,10 @@ ul, li {
 .flex {
 	display: flex;
 }
+.bg-gray-wrap {
+	padding: 120px 0 200px 0;
+	background: #F2F2F2;
+}
 
 /** header **/
 header {
@@ -112,11 +116,6 @@ header li a:hover {
 .btn:hover {
 	border: 1px solid rgba(0, 0, 0, 0.17);
 	opacity: 0.85;
-}
-
-.bg-gray-wrap {
-	padding: 120px 0 200px 0;
-	background: #F2F2F2;
 }
 
 /** main-menu **/
@@ -532,6 +531,12 @@ header li a:hover {
 }
 .slider2 .swiper-button-next {
 	top: 60%;
+}
+
+/** Contact **/
+.contact {
+	padding: 120px 0 200px 0;
+	background: #E0931E;
 }
 
 
