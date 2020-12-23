@@ -575,6 +575,7 @@ input, textarea {
 .address {
 	font-size: 16px;
 	color: #fff;
+	margin-bottom: 32px;
 }
 .map-blc {
 	margin: 0 0 0 120px;
