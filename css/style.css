@@ -541,9 +541,6 @@ header li a:hover {
 .contact .container {
 	padding: 0 100px;
 }
-.contact-set {
-	max-width: 1240px;
-}
 .contact h3 {
 	color: #fff;
 	font-size: 40px;
@@ -552,6 +549,13 @@ header li a:hover {
 .contact-blc {
 	text-align: center;
 	max-width: 400px;
+	padding: 0 60px;
+}
+.map-blc {
+	padding: 0 60px;
+}
+iframe {
+	border-radius: 50%;
 }
 
 
