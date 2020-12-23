@@ -569,6 +569,9 @@ header li a:hover {
 .contact-blc {
 	width: 400px;
 }
+input, textarea {
+	width: 100%;
+}
 .address {
 	font-size: 16px;
 	color: #fff;
