@@ -578,6 +578,24 @@ input, textarea {
 ::placeholder {
 	color: #757575;
 }
+.button {
+	text-align: right;
+}
+button {
+	background: rgba(0, 0, 0, 0.17);
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	color: #fff;
+	border-radius: 8px;
+	padding: 20px 48px;
+	margin-top: 8px;
+	cursor:pointer;
+	display: inline-block;
+	transition:200ms ease all;
+}
+button:hover {
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	opacity: 0.85;
+}
 .address {
 	font-size: 16px;
 	color: #fff;
@@ -587,6 +605,8 @@ input, textarea {
 	margin: 0 0 0 120px;
 }
 iframe {
+	max-width: 560px;
+	max-height: 560px;
 	border-radius: 50%;
 }
 
