@@ -541,6 +541,9 @@ header li a:hover {
 .contact .container {
 	padding: 0 100px;
 }
+.contact-set {
+	margin-top: 64px;
+}
 .contact h3 {
 	color: #fff;
 	font-size: 40px;
