@@ -572,6 +572,7 @@ header li a:hover {
 input, textarea {
 	width: 100%;
 	padding: 16px;
+	margin-bottom: 24px;
 }
 .address {
 	font-size: 16px;
