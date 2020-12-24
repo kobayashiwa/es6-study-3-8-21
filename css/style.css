@@ -604,11 +604,14 @@ button:hover {
 .map-blc {
 	margin: 0 0 0 120px;
 }
-iframe {
+#map {
 	max-width: 560px;
 	max-height: 560px;
-	border-radius: 50%;
 }
+iframe{
+	filter: grayscale(1);
+  }
+
 
 
 
