@@ -42,6 +42,10 @@ ul, li {
 .flex {
 	display: flex;
 }
+.bg-gray-wrap {
+	padding: 120px 0 200px 0;
+	background: #F2F2F2;
+}
 
 /** header **/
 header {
@@ -112,11 +116,6 @@ header li a:hover {
 .btn:hover {
 	border: 1px solid rgba(0, 0, 0, 0.17);
 	opacity: 0.85;
-}
-
-.bg-gray-wrap {
-	padding: 120px 0 200px 0;
-	background: #F2F2F2;
 }
 
 /** main-menu **/
@@ -533,6 +532,86 @@ header li a:hover {
 .slider2 .swiper-button-next {
 	top: 60%;
 }
+
+/** Contact **/
+.contact {
+	padding: 120px 0 200px 0;
+	background: #E0931E;
+}
+.contact .container {
+	padding: 0 100px;
+}
+.contact-set {
+	margin-top: 64px;
+}
+.contact h3 {
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+}
+.contact h4{
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+}
+.contact h4::after {
+	content:"";
+	display:block;
+	width:120px;
+	height:1px;
+	background-color:rgba(44, 44, 44, 0.4);
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.contact-blc {
+	width: 400px;
+}
+input, textarea {
+	width: 100%;
+	padding: 16px;
+	margin-bottom: 24px;
+	border: none;
+}
+::placeholder {
+	color: #757575;
+}
+.button {
+	text-align: right;
+}
+button {
+	background: rgba(0, 0, 0, 0.17);
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	color: #fff;
+	border-radius: 8px;
+	padding: 20px 48px;
+	margin-top: 8px;
+	cursor:pointer;
+	display: inline-block;
+	transition:200ms ease all;
+}
+button:hover {
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	opacity: 0.85;
+}
+.address {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 32px;
+}
+.map-blc {
+	margin: 0 0 0 120px;
+}
+#map {
+	max-width: 560px;
+	max-height: 560px;
+}
+iframe{
+	filter: grayscale(1);
+  }
+
 
 
 
